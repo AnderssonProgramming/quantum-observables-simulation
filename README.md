@@ -2,7 +2,7 @@
 
 ## Basic Quantum Theory, Observables and Measurements Workshop
 
-**Author**: Systems Engineering Team  
+**Author**: Andersson Programming
 **Course**: Quantum Computing and Information Theory (CNYT)  
 **Institution**: Escuela Colombiana de Ingeniería Julio Garavito  
 **Repository**: https://github.com/AnderssonProgramming/quantum-observables-simulation
@@ -98,15 +98,6 @@ Evolution is governed by unitary transformations:
 |ψ(t+1)⟩ = U|ψ(t)⟩, where U†U = I
 ```
 
-## Results Summary
-
-- **Exercise 4.3.1**: Identified post-measurement eigenstates
-- **Exercise 4.3.2**: Calculated transition probabilities (p₁ = p₂ = 0.5)
-- **Exercise 4.4.1**: Verified unitary matrix properties and composition
-- **Exercise 4.4.2**: Computed final probability at position 3: 0.500
-- **Exercise 4.5.2**: Derived n-particle state vectors with 2ⁿ dimensions
-- **Exercise 4.5.3**: Determined state separability using rank analysis
-
 ## File Structure
 
 ```
@@ -134,7 +125,7 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 
 ## Authors
 
-* **Systems Engineering Team** - *Complete implementation* - [AnderssonProgramming](https://github.com/AnderssonProgramming)
+* **Andersson Programming** - *Complete implementation* - [AnderssonProgramming](https://github.com/AnderssonProgramming)
 
 ## Acknowledgments
 
