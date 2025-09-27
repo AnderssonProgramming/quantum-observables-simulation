@@ -15,15 +15,18 @@ This project implements a comprehensive quantum system simulator based on fundam
 
 ### Key Features
 
-- **Quantum System Modeling**: Discrete particle position simulation with complex state vectors
-- **Observable Measurements**: Hermitian matrix analysis with eigenvalue decomposition
-- **State Transition Analysis**: Probability calculations for quantum state collapse
-- **Unitary Evolution**: Time-based system dynamics with unitary transformations
-- **Multi-Particle Systems**: Tensor product construction for composite quantum systems
-- **Entanglement Analysis**: Separability detection and quantum correlation analysis
+### Section 4.1 Basic Quantum System
+- **Discrete Position Modeling**: Particle confined to discrete positions on a line
+- **Position Probability Calculation**: Find probability of particle at specific position
+- **State Transition Probability**: Calculate transition probability between quantum states
 
-## Solved Exercises
+### Chapter 4 Programming Challenges
+- **Transition Amplitude Calculation**: Compute amplitude and probability between two state vectors
+- **Observable Analysis**: Hermitian verification, mean value, and variance calculations
+- **Eigenvalue Probabilities**: Calculate probabilities of transitioning to eigenvector states
+- **System Dynamics**: Evolution through series of unitary transformations
 
+### Specific Exercise Solutions
 - **Exercise 4.3.1**: Post-measurement state transitions and eigenvector analysis
 - **Exercise 4.3.2**: Probability calculations and statistical distributions
 - **Exercise 4.4.1**: Unitary matrix verification and composition properties
@@ -70,8 +73,10 @@ Execute all notebook cells sequentially to run the complete quantum observables 
 
 1. **Environment Setup**: Install and configure required packages
 2. **Library Imports**: Load scientific computing libraries
-3. **Exercise Solutions**: Run each exercise implementation with visualization
-4. **Results Analysis**: Review comprehensive outputs and mathematical explanations
+3. **Section 4.1 Basic System**: Test discrete quantum system with position probabilities
+4. **Programming Challenges**: Execute all four Chapter 4 programming challenges
+5. **Specific Exercises**: Run exercises 4.3.1, 4.3.2, 4.4.1, 4.4.2, 4.5.2, 4.5.3
+6. **Results Analysis**: Review comprehensive outputs and mathematical explanations
 
 ### Individual Exercise Execution
 
