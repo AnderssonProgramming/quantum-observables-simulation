@@ -20,18 +20,7 @@ This project implements a comprehensive quantum system simulator based on fundam
 - **Multi-Particle Systems**: Tensor product construction for composite quantum systems
 - **Entanglement Analysis**: Separability detection and quantum correlation analysis
 
-## Technical Implementation
-
-### Core Components
-
-1. **QuantumSystemSimulator**: Base class for quantum state management
-2. **ObservableMeasurement**: Observable analysis and measurement simulation
-3. **UnitaryTransformation**: Quantum dynamics and evolution operators
-4. **QuantumBilliardBall**: Discrete time evolution simulation
-5. **MultiParticleQuantumSystem**: Tensor product system construction
-6. **QuantumStateSeparabilityAnalyzer**: Entanglement and separability analysis
-
-### Solved Exercises
+## Solved Exercises
 
 - **Exercise 4.3.1**: Post-measurement state transitions and eigenvector analysis
 - **Exercise 4.3.2**: Probability calculations and statistical distributions
@@ -53,7 +42,7 @@ jupyter>=1.0.0
 sympy>=1.8.0
 ```
 
-### Installing
+### Installation
 
 1. Clone the repository:
 ```bash
@@ -71,35 +60,20 @@ pip install -r requirements.txt
 jupyter notebook quantum_observables_simulation.ipynb
 ```
 
-## Running the Exercises
+## Usage
 
-### Complete Simulation
+### Running the Complete Simulation
 
 Execute all notebook cells sequentially to run the complete quantum observables simulation:
 
 1. **Environment Setup**: Install and configure required packages
 2. **Library Imports**: Load scientific computing libraries
-3. **Core Implementation**: Initialize quantum system classes
-4. **Exercise Solutions**: Run specific problem implementations
-5. **Visualization**: Generate plots and analysis results
+3. **Exercise Solutions**: Run each exercise implementation with visualization
+4. **Results Analysis**: Review comprehensive outputs and mathematical explanations
 
 ### Individual Exercise Execution
 
-Each exercise can be run independently:
-
-```python
-# Exercise 4.3.1: Observable measurements
-measurement_system = ObservableMeasurement(observable_matrix)
-possible_states = measurement_system.get_possible_states_after_measurement()
-
-# Exercise 4.4.2: Quantum evolution
-qbb = QuantumBilliardBall(initial_state, unitary_matrix)
-final_state = qbb.evolve_multiple_steps(3)
-
-# Exercise 4.5.3: Separability analysis
-analyzer = QuantumStateSeparabilityAnalyzer(2, [2, 2])
-result = analyzer.analyze_two_particle_separability(state_vector)
-```
+Each exercise is implemented as a complete section in the notebook and can be run independently.
 
 ## Mathematical Framework
 
@@ -133,6 +107,18 @@ Evolution is governed by unitary transformations:
 - **Exercise 4.5.2**: Derived n-particle state vectors with 2ⁿ dimensions
 - **Exercise 4.5.3**: Determined state separability using rank analysis
 
+## File Structure
+
+```
+quantum-observables-simulation/
+├── quantum_observables_simulation.ipynb  # Main notebook with all solutions
+├── transcription_quantum_chapter.py      # Theory content and exercise descriptions
+├── requirements.txt                      # Python dependencies
+├── README.md                           # Project documentation
+├── LICENSE                             # GNU GPL v3 license
+└── basic-quantum-theory-observable-measurements-workshop.txt
+```
+
 ## Built With
 
 * **Python 3.8+** - Core programming language
@@ -142,30 +128,13 @@ Evolution is governed by unitary transformations:
 * **Jupyter** - Interactive notebook environment
 * **SymPy** - Symbolic mathematics
 
-## Contributing
+## License
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit changes using conventional commits (`git commit -m 'feat: add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## Versioning
-
-This project uses conventional commits for systematic development:
-
-- `feat:` New features and implementations
-- `docs:` Documentation updates
-- `test:` Testing and validation additions
-- `chore:` Maintenance and project setup
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Authors
 
 * **Systems Engineering Team** - *Complete implementation* - [AnderssonProgramming](https://github.com/AnderssonProgramming)
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
