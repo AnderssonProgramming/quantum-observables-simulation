@@ -106,8 +106,7 @@ quantum-observables-simulation/
 ├── transcription_quantum_chapter.py      # Theory content and exercise descriptions
 ├── requirements.txt                      # Python dependencies
 ├── README.md                           # Project documentation
-├── LICENSE                             # GNU GPL v3 license
-└── basic-quantum-theory-observable-measurements-workshop.txt
+└── LICENSE                             # GNU GPL v3 license
 ```
 
 ## Built With
