@@ -3,6 +3,8 @@
 ## Basic Quantum Theory, Observables and Measurements Workshop
 
 **Author**: Andersson Programming
+
+
 **Course**: Quantum Computing and Information Theory (CNYT)  
 **Institution**: Escuela Colombiana de Ingeniería Julio Garavito  
 **Repository**: https://github.com/AnderssonProgramming/quantum-observables-simulation
