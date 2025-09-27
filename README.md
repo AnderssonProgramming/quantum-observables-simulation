@@ -130,7 +130,6 @@ This project is licensed under the GNU General Public License v3.0 - see the [LI
 ## Acknowledgments
 
 * Quantum Computing and Information Theory course materials
-* Escuela Colombiana de Ingeniería Julio Garavito
 * Chapter 4 theoretical framework from course textbook
 * NumPy and SciPy communities for scientific computing tools
 
